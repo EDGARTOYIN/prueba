@@ -21,8 +21,8 @@ const process: IProcess = {
 const process2: IProcess = {
   action: "test_conn",
   args: {
-    ssid: "IZZI-4A20",
-    pass: "98F781FB4A20",
+    ssid: "some network",
+    pass: "some password",
   },
   eventName: "wifi-event",
 };
