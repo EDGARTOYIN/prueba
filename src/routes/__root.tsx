@@ -7,9 +7,8 @@ export const Route = createRootRoute({
 
 function App() {
   return (
-    <main className="dark text-foreground bg-background">
+    <main className="dark text-foreground bg-background flex min-h-screen">
       <Outlet />
-      {/* <TanStackRouterDevtools /> */}
     </main>
   );
 }
