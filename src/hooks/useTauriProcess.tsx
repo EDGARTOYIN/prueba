@@ -35,7 +35,7 @@ function messagesReducer(state: string[], action: messageActions): string[] {
  * - `messages`: Un array de mensajes que se actualiza cuando se recibe un evento del proceso de iniciado de Tauri.
  */
 function useTauriProcess() {
-  const defaultMessage = "Esperando por un proceso";
+  const defaultMessage = "Waiting for a process";
   const [messages, messagesDispatch] = useReducer(messagesReducer, [
     defaultMessage,
   ]);

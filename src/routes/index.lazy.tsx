@@ -31,9 +31,7 @@ function Index() {
       <h1 className="text-4xl font-bold text-white pb-2"> WIFI</h1>
       <section className="grid grid-cols-2 gap-10 flex-grow">
         <div className="flex flex-col gap-5 items-center mt-20">
-          <h2 className="text-white font-semibold text-lg">
-            Pruebas disponibles:
-          </h2>
+          <h2 className="text-white font-semibold text-lg">tests:</h2>
           <section className="flex flex-col gap-5">
             <ButtonGroup size="lg">
               <TauriButton
@@ -41,7 +39,7 @@ function Index() {
                 startProcess={startProcess}
                 isLoading={status === "pending"}
               >
-                Probar config a
+                config a
               </TauriButton>
             </ButtonGroup>
           </section>
